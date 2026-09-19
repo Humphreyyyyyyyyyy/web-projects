@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <h2>Enter your support query</h2>
+      <ul>
+        <li>
+          <label for="uname">User name:</label>
+          <input
+            type="text"
+            maxlength="20"
+            minlength="5"
+            name="uname"
+            id="uname"
+            required
+          />
+        </li>
+        <li>
+          <label for="email">Email address:</label>
+          <input type="email" name="email" id="email" required />
+        </li>
+        <li>
+          <label for="phone">Phone number:</label>
+          <input type="tel" maxlength="15" name="phone" id="phone" required />
+        </li>
+        <li>
+          <label for="comment">Comment:</label>
+          <textarea name="comment" maxlength="200" id="comment" required>
+          </textarea>
+        </li>
+        <li>
+          <button type="submit">Submit comment</button>
+        </li>
+      </ul>
+    </form>
+  </body>
+</html>

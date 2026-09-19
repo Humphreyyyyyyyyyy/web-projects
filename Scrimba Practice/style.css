@@ -1,0 +1,27 @@
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  border-radius: 10%;
+}
+html {
+  font-family: "Bebas Neue", sans-serif;
+}
+h1 {
+  font-size: 40px;
+  color: brown;
+  text-shadow: 0 2px 2px;
+  padding: 0 0 20px 0;
+  margin: 0;
+  text-align: left;
+}
+body {
+  background-color: blanchedalmond;
+}

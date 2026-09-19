@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(79, 13, 139);
+}
+.form {
+  background-color: rgb(81, 65, 97);
+  padding: 20px;
+  width: 500px;
+  box-shadow: 0 0 50px white; 
+
+  border: 25px solid rgb(81, 65, 97);
+  border-radius: 15px;
+}
+.form::before {
+  box-shadow: inset 0px 15px 50px;
+  border: 2px solid black;
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  color: darkgray;
+  padding: 20px;
+  margin-top: 30px;
+}
+h4 {
+  justify-content: left;
+  color: darkgray;
+  padding-bottom: 15px;
+}
+label {
+  color: darkgray;
+  font-size: 18px;
+}
+input.one {
+  width: 100%;
+  height: 45px;
+  background: transparent;
+  box-shadow: inset 0px 2px 10px;
+  border-radius: 8px;
+  border-color: transparent;
+  margin-bottom: 20px;
+}
+.check {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-between;
+}
+.checkone {
+  font-size: 18px;
+  margin-top: 5px;
+  margin-left: -130px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+button {
+  width: 100%;
+  height: 35px;
+  background: rgb(79, 13, 139);
+  border-radius: 12px;
+  border-color: transparent;
+  color: rgb(180, 159, 201);
+  font-size: 15px;
+}
+.two {
+  text-align: center;
+  color: darkgray;
+  padding-top: 10px;
+  
+}
+a {
+  color: rgb(79, 13, 139);
+}
+a:hover {
+  color: rgb(79, 13, 139);
+}
+.che {
+  width: 20px;
+  height: 25px;
+  margin-right: 8px;
+}
+i.fa-solid {
+  font-size: 50px;
+  border: 2px solid darkgray;
+  width: 80px;
+  height: 80px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 30px;
+  transform: translateX(-50%);
+  margin: 0 auto;
+  display: block;
+  margin-top: 40px;
+  background-color: rgb(79, 13, 139);
+}
+
+label + p { margin-top: 6px;
+font-size: 16px;}
+p > a { text-decoration: none;
+color: darkgray;
+font-weight: bold;}
+b > a { color: darkgray;}

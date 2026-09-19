@@ -1,0 +1,54 @@
+li[class] {
+  color: red;
+}
+/*selects any list element that has a class attribute*/
+li[class="a"] {
+  color: blue;
+}
+/*Selects any list element that has a class of a, but not a selector with a class of a with another space-seperated class as part is the value*/
+li[class~="a"] {
+  background-color: aliceblue;
+}
+/*Select any list element with a class of a but also a value that contains the class of a as part of a whitespace-seperated list*/
+li[class^="a"] {
+  font-weight: bold;
+}
+/*Selects any attribute value that starts with a*/
+li[class$="a"] {
+  text-decoration: underline;
+}
+/*Selects any attribute value that ends with a*/
+li[class*="a"] {
+  font-style: italic;
+}
+/*Selects any attribute value where a appears anywhere in the string*/
+ul li:first-child {
+  font-size: 25px;
+}
+/*Selects the first child element of the parent element*/
+body p:first-child:first-line {
+  color: darkgreen;
+}
+/*Selects the first line of the element*/
+a:link {
+  color: green;
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: blueviolet;
+}
+.box::after {
+  content: "This is a Pseudo before element";
+  color: red;
+}
+/* The content property is used to insert text after the prexisting content if the selected element. The ::before can be used in the same vein but adds a the new content before the preexiting content*/
+a::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  display: block;
+}
+/*Setting the display of an element to block makes it easy to sit on its own line and easy to manipulate with width and height adjustments*/

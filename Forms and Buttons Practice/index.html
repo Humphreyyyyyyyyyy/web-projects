@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Who is your favorite pony?</legend>
+        <ul>
+          <li>
+            <label for="pinkie">Pinkie Pie</label>
+            <input
+              type="radio"
+              name="ponyselect"
+              id="pinkie"
+              value="Pinkie Pie"
+              checked
+            />
+          </li>
+          <li>
+            <label for="rainbow">Rainbow Dash</label>
+            <input
+              type="radio"
+              id="rainbow"
+              name="ponyselect"
+              value="Rainbow dash"
+            />
+          </li>
+          <li>
+            <label for="twilight">Twilight Sparkle</label>
+            <input
+              type="radio"
+              id="twilight"
+              name="ponyselect"
+              value="Twighlight sparkle"
+            />
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>Hotdog preferences</legend>
+        <ul>
+          <li>
+            <label for="vegan">Vegan</label>
+            <input type="checkbox" id="vegan" name="vegan" />
+          </li>
+          <li>
+            <label for="onions">Onions</label>
+            <input type="checkbox" id="onions" name="Onions" />
+          </li>
+        </ul>
+      </fieldset>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

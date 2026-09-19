@@ -1,0 +1,27 @@
+body {
+  font: 1.2em / 1.5 system-ui;
+  font-family: Bebas Neue;
+  margin: 12px;
+  border: 4px solid black;
+  border-style: dashed;
+  padding: 15px;
+  background-color: rgb(144, 205, 230);
+}
+
+.sender-column {
+  text-align: right;
+}
+
+h1 {
+  font-size: 1.3em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+.wow {
+  color: green;
+}
+html {
+  background-color: rgb(87, 154, 185);
+}

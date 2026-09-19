@@ -1,0 +1,97 @@
+      HTML CODE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="glassmorphism.css" rel="stylesheet">
+    <title>Codewithvictory</title>
+</head>
+<body>
+    <div class="loginform">
+        <form>
+            <h2>Welcome</h2>
+            <div class="inputdiv">
+                <input type="email" placeholder="Email" id="email" name="email" required><br><br>
+                <input type="password" placeholder="Password" name="password" required><br>
+            </div>
+            <div class="btn">
+                <button>Login</button>
+            </div>
+            <div class="lastparagraph">
+                <p><a href="#">Forgot Password?</a></p>
+                <p><a href="#">Sign Up!</a></p>
+            </div>
+            <hr>
+            <h4>OR LOG IN WITH</h4>
+            <div class="svgs">
+                <img class="google" src="icons8-google.svg" style="width: 40px; height: 50px;">
+                <img class="facebook" src="facebooklogo.svg" style="width: 41px; height: 50px;">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+-----------------------------------------------------------------------------------------------------------
+       CSS CODE
+* { margin: 0;
+padding: 0;
+box-sizing: border-box;}
+html { background-image: url(Sunsetmountain.png);
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;}
+.loginform { width: 400px;
+height: 500px;
+border: 35px solid transparent;
+background: rgba(255, 255, 255, 0.18);
+backdrop-filter: blur(5px);
+border-radius: 10px;}
+h2, h4 { text-align: center;
+color: white;
+font-family: arial;
+padding-top: 30px;
+}
+input { width: 100%;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.19);
+    border: none;
+    border-radius: 30px;
+    border-top: 1px solid darkgray;
+     border-bottom: 1px solid darkgray;
+}
+input::placeholder { color: white;
+padding-left: 10px;
+font-size: 14px;
+font-family: helvetica;}
+h2 { padding-bottom: 20px;
+padding-top: 4px;
+margin-bottom: 30px;}
+.btn { display: flex;
+justify-content: center;
+margin-top: 30px;}
+button { width: 100%;
+height: 45px;
+border-radius: 30px;
+background-color: rgb(143, 15, 15);
+border: transparent;
+font-size: 17px;
+color: white;
+margin-bottom: 15px;}
+.lastparagraph { display: flex;
+justify-content: space-between;
+padding-bottom: 20px;}
+p { font-family: arial;
+font-size: 16px;
+color: white;}
+a { color: white;
+text-decoration: none;}
+a:hover { color:  rgb(143, 15, 15);}
+.svgs { display: flex;
+justify-content: center;
+margin-top: 8px;}
+.google { margin-right: 28px;}
+h4 { padding-bottom: 13px;}

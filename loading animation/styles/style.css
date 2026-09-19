@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.loader {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.loader {
+  background: conic-gradient(
+    red,
+    orange,
+    yellow,
+    lime,
+    cyan,
+    blue,
+    violet,
+    red
+  );
+}
+.loader::before {
+  content: "";
+  position: absolute;
+  inset: 12px;
+  background: black;
+  border-radius: 50%;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.loader {
+  animation: spin 2s linear infinite;
+}
+.loader {
+  box-shadow:
+    0 0 20px violet,
+    0 0 40px blue,
+    0 0 60px green,
+    0 0 80px yellow;
+}

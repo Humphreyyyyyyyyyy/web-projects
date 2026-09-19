@@ -1,0 +1,52 @@
+body {
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 0 20px 20px 20px;
+  background-image:;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  font-size: 20px;
+  font-family: Arial;
+  background-color: black;
+}
+.logo {
+  font-size: 30px;
+}
+input {
+  height: 30px;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+  width: 250px;
+  justify-content: end;
+}
+nav ul li:hover {
+  text-decoration: underline 2px solid blue;
+  color: red;
+}
+.input {
+  display: flex;
+  justify-content: right;
+}
+html {
+  margin: 1%;
+  margin-top: 0;
+}
+.pone {
+  padding: 20px;
+  background-color: red;
+  text-align: left;
+}
+button {
+  background-color: red;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  height: 20px;
+  border-color: red;
+  padding-top: 5px;
+}

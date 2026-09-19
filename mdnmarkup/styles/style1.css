@@ -1,0 +1,36 @@
+nav ul {
+  display: flex;
+  gap: 70px;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-color: skyblue;
+}
+h1,
+h2 {
+  color: darkblue;
+}
+header {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: Arial, Times, serif;
+}
+nav ul li a {
+  border: 1px solid purple;
+  border-width: 0.8em;
+  border-radius: 18px;
+}
+h2 {
+  text-align: center;
+}
+body {
+  font-family: "calibri";
+  margin: 5px;
+}
+aside {
+  display: flex;
+  justify-content: right;
+}

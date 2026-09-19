@@ -1,0 +1,16 @@
+img {
+  width: 150px;
+  height: 150px;
+  border: 1px solid gold;
+  box-shadow: 2px 2px 5px black;
+  animation: spin 2s linear infinite;
+  border-radius: 80px;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

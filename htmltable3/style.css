@@ -1,0 +1,55 @@
+td {
+  border: 1px solid gray;
+}
+tr {
+  background-color: antiquewhite;
+}
+th {
+  background-color: lime;
+  height: 35px;
+}
+.width {
+  width: 300px;
+}
+td {
+  text-align: center;
+  height: 50px;
+}
+.row-color {
+  background-color: pink;
+  color: red;
+  font-size: 20px;
+  border: 1px solid black;
+}
+.color {
+  color: red;
+  font-size: 20px;
+  background-color: gray;
+  border: 1px solid black;
+  border-top: 1px solid black;
+}
+.border-color {
+  border-bottom: 2px solid gray;
+  border-top: 2px solid gray;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  border: 1px solid;
+}
+.target {
+  border-right: 1px solid;
+}
+caption {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+table {
+  margin: 20px;
+  width: 100%;
+}

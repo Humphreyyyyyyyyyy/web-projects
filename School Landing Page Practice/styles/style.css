@@ -1,0 +1,23 @@
+h1 {
+  color: blueviolet;
+  text-align: center;
+}
+html {
+  line-height: 7px;
+  text-transform: capitalize;
+  font-family:
+    Bebas Neue,
+    sans-serif;
+  font-size: 25px;
+  background-color: aqua;
+}
+p1 {
+  font-family: Bebas Neue;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+img {
+  display: block;
+  width: 400px;
+  padding: 20px 20px 20px 20px;
+}

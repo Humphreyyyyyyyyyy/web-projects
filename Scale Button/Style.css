@@ -1,0 +1,23 @@
+* { margin: 0;
+padding: 0;
+box-sizing: border-box;}
+html { background-color: black;}
+.btn { display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;}
+button { width: 160px;
+height: 50px;
+font-size: 15px;
+border-radius: 15px;
+background-color: aqua;
+border: none;
+}
+button:hover { background-color: blueviolet;
+color: aqua;
+transform: scale(1.1);
+padding: 5px;
+box-shadow: 0 0 30px rgb(255, 0, 0);
+border: 1px solid black;}
+button:hover::after { content: "You mother**!!";}
+button:hover::before { content: "I said ";}

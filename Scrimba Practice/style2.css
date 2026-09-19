@@ -1,0 +1,16 @@
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 20px;
+  background-color: blanchedalmond;
+
+  margin: 70px;
+}
+div {
+  line-height: 35px;
+  padding: 0 auto;
+}
+body {
+  padding: 0 20px 20px 20px;
+}
