@@ -73,7 +73,7 @@ label {
 .wrapperone {
   position: absolute;
   bottom: 10px;
-  left: 10px;
+  left: 280px;
 }
 i.fa-solid {
   font-size: 20px;
@@ -99,7 +99,7 @@ input {
 .wrappertwo {
   position: absolute;
   bottom: 9px;
-  left: 10px;
+  left: 280px;
 }
 i.fa-solid {
   font-size: 20px;
