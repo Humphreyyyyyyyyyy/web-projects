@@ -88,6 +88,8 @@ input {
     inset 2px 2px 4px#7e8b96,
     inset -3px -2px 12px rgba(255, 255, 255, 1);
   background: transparent;
+  outline: none;
+  cursor: pointer;
 }
 .whole {
   padding-top: 35px;
