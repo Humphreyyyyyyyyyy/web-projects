@@ -40,7 +40,8 @@ form {
   line-height: 60px;
   text-align: center;
   background-color: transparent;
-  box-shadow: 3px 3px 10px #7e8b96;
+  box-shadow: 3px 3px 10px #7e8b96,
+    -3px -3px 10px white;
 }
 
 img {
